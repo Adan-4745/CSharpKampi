@@ -1,0 +1,7 @@
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\04_loops\04_loops\bin\Debug\04_loops.exe.config
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\04_loops\04_loops\bin\Debug\04_loops.exe
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\04_loops\04_loops\bin\Debug\04_loops.pdb
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\04_loops\04_loops\obj\Debug\04_loops.csproj.AssemblyReference.cache
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\04_loops\04_loops\obj\Debug\04_loops.csproj.CoreCompileInputs.cache
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\04_loops\04_loops\obj\Debug\04_loops.exe
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\04_loops\04_loops\obj\Debug\04_loops.pdb

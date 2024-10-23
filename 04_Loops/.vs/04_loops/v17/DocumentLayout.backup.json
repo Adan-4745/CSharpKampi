@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\omerf\\OneDrive\\Belgeler\\GitHub\\csharp_egitim_kamp\\04_loops\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F9213C2-621C-4DDD-9945-0F8077280CD2}|04_loops\\04_loops.csproj|c:\\users\\omerf\\onedrive\\belgeler\\github\\csharp_egitim_kamp\\04_loops\\04_loops\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F9213C2-621C-4DDD-9945-0F8077280CD2}|04_loops\\04_loops.csproj|solutionrelative:04_loops\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Belgeler\\GitHub\\csharp_egitim_kamp\\04_loops\\04_loops\\Program.cs",
+              "RelativeDocumentMoniker": "04_loops\\Program.cs",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Belgeler\\GitHub\\csharp_egitim_kamp\\04_loops\\04_loops\\Program.cs*",
+              "RelativeToolTip": "04_loops\\Program.cs*",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAiwH4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T14:13:38.745Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
