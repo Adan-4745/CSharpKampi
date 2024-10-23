@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\omerf\\OneDrive\\Belgeler\\GitHub\\csharp_egitim_kamp\\08_Methods\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E882E2A-BD5B-44DF-B1D0-A7E92D5FFE02}|08_Methods\\08_Methods.csproj|c:\\users\\omerf\\onedrive\\belgeler\\github\\csharp_egitim_kamp\\08_methods\\08_methods\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E882E2A-BD5B-44DF-B1D0-A7E92D5FFE02}|08_Methods\\08_Methods.csproj|solutionrelative:08_methods\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Belgeler\\GitHub\\csharp_egitim_kamp\\08_Methods\\08_Methods\\Program.cs",
+              "RelativeDocumentMoniker": "08_Methods\\Program.cs",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Belgeler\\GitHub\\csharp_egitim_kamp\\08_Methods\\08_Methods\\Program.cs*",
+              "RelativeToolTip": "08_Methods\\Program.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA2wGoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T11:15:10.612Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
