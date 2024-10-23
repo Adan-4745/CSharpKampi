@@ -1,0 +1,7 @@
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\07-Foreachloop\07-Foreachloop\bin\Debug\07-Foreachloop.exe.config
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\07-Foreachloop\07-Foreachloop\bin\Debug\07-Foreachloop.exe
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\07-Foreachloop\07-Foreachloop\bin\Debug\07-Foreachloop.pdb
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\07-Foreachloop\07-Foreachloop\obj\Debug\07-Foreachloop.csproj.AssemblyReference.cache
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\07-Foreachloop\07-Foreachloop\obj\Debug\07-Foreachloop.csproj.CoreCompileInputs.cache
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\07-Foreachloop\07-Foreachloop\obj\Debug\07-Foreachloop.exe
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\07-Foreachloop\07-Foreachloop\obj\Debug\07-Foreachloop.pdb
