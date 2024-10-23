@@ -1,0 +1,7 @@
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\05_loopswithstars\05_loopswithstars\bin\Debug\05_loopswithstars.exe.config
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\05_loopswithstars\05_loopswithstars\bin\Debug\05_loopswithstars.exe
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\05_loopswithstars\05_loopswithstars\bin\Debug\05_loopswithstars.pdb
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\05_loopswithstars\05_loopswithstars\obj\Debug\05_loopswithstars.csproj.AssemblyReference.cache
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\05_loopswithstars\05_loopswithstars\obj\Debug\05_loopswithstars.csproj.CoreCompileInputs.cache
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\05_loopswithstars\05_loopswithstars\obj\Debug\05_loopswithstars.exe
+C:\Users\omerf\OneDrive\Belgeler\GitHub\csharp_egitim_kamp\05_loopswithstars\05_loopswithstars\obj\Debug\05_loopswithstars.pdb
