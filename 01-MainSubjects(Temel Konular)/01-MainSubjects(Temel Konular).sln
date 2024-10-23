@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-MainSubjects(Temel Konular)", "01-MainSubjects(Temel Konular)\01-MainSubjects(Temel Konular).csproj", "{2B42102C-759C-4A7F-B622-064A768E5FC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B42102C-759C-4A7F-B622-064A768E5FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B42102C-759C-4A7F-B622-064A768E5FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B42102C-759C-4A7F-B622-064A768E5FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B42102C-759C-4A7F-B622-064A768E5FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CA35C9F-7CAA-4BDF-BA40-CFC9202C81F4}
+	EndGlobalSection
+EndGlobal

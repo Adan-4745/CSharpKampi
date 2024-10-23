@@ -1,0 +1,7 @@
+C:\Users\omerf\source\repos\c# eğitim kampı\01-MainSubjects(Temel Konular)\bin\Debug\01-MainSubjects(Temel Konular).exe.config
+C:\Users\omerf\source\repos\c# eğitim kampı\01-MainSubjects(Temel Konular)\bin\Debug\01-MainSubjects(Temel Konular).exe
+C:\Users\omerf\source\repos\c# eğitim kampı\01-MainSubjects(Temel Konular)\bin\Debug\01-MainSubjects(Temel Konular).pdb
+C:\Users\omerf\source\repos\c# eğitim kampı\01-MainSubjects(Temel Konular)\obj\Debug\01-MainSubjects(Temel Konular).csproj.AssemblyReference.cache
+C:\Users\omerf\source\repos\c# eğitim kampı\01-MainSubjects(Temel Konular)\obj\Debug\01-MainSubjects(Temel Konular).csproj.CoreCompileInputs.cache
+C:\Users\omerf\source\repos\c# eğitim kampı\01-MainSubjects(Temel Konular)\obj\Debug\01-MainSubjects(Temel Konular).exe
+C:\Users\omerf\source\repos\c# eğitim kampı\01-MainSubjects(Temel Konular)\obj\Debug\01-MainSubjects(Temel Konular).pdb
