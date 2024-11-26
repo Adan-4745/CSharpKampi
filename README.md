@@ -34,6 +34,6 @@ Murat Yücedağın Udemy üzerinden bir çok dersini aldım ve aklımda olan pro
 
 Bu proje ile birlikte entity framework kullanarak bir seyhat veri bilgilerini sorgulayarak ve bu sorgualrı bir görsel istatistik hale getitdik
 
-Proje sayesinde entity frameworkün faydalarını en öncellikli faydası bana veri tabanı programını kullanmadan veri tabanı oluşturması ve veri ilişkilendirmesi
-Bundan sonraki projelerimde sıkca entity framework kullanıcam 
-Öğretiğiniz her bilgi için şimdideen teşekkürler ♥
+Proje sayesinde entity frameworkün faydalarını öğrendim en öncellikli faydası bana veri tabanı programını kullanmadan veri tabanı oluşturması ve veri ilişkilendirmesi
+Bundan sonraki projelerimde sıkça entity framework kullanıcam 
+Öğretiğiniz her bilgi için şimdiden teşekkürler ♥
