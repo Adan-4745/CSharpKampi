@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EgitimKampiEfTravelDbModelStoreContainer" CdmEntityContainer="EgitimKampiEfTravelDbEntities">
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="EgitimKampiEfTravelDbModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblcustomer">
+      <EntityTypeMapping TypeName="EgitimKampiEfTravelDbModel.tblcustomer">
+        <MappingFragment StoreEntitySet="tblcustomer">
+          <ScalarProperty Name="customerbalance" ColumnName="customerbalance" />
+          <ScalarProperty Name="customerid" ColumnName="customerid" />
+          <ScalarProperty Name="customername" ColumnName="customername" />
+          <ScalarProperty Name="customersurname" ColumnName="customersurname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblguide">
+      <EntityTypeMapping TypeName="EgitimKampiEfTravelDbModel.tblguide">
+        <MappingFragment StoreEntitySet="tblguide">
+          <ScalarProperty Name="guideid" ColumnName="guideid" />
+          <ScalarProperty Name="guidename" ColumnName="guidename" />
+          <ScalarProperty Name="guidesurname" ColumnName="guidesurname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbllocation">
+      <EntityTypeMapping TypeName="EgitimKampiEfTravelDbModel.tbllocation">
+        <MappingFragment StoreEntitySet="tbllocation">
+          <ScalarProperty Name="locationid" ColumnName="locationid" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="capacity" ColumnName="capacity" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="daynight" ColumnName="daynight" />
+          <ScalarProperty Name="guideid" ColumnName="guideid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbladmin">
+      <EntityTypeMapping TypeName="EgitimKampiEfTravelDbModel.tbladmin">
+        <MappingFragment StoreEntitySet="tbladmin">
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="adminid" ColumnName="adminid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

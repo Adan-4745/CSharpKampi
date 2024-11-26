@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="EgitimKampiEfTravelDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="tbladmin">
+          <Key>
+            <PropertyRef Name="adminid" />
+          </Key>
+          <Property Name="adminid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="username" Type="nvarchar" MaxLength="50" />
+          <Property Name="password" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="tblcustomer">
+          <Key>
+            <PropertyRef Name="customerid" />
+          </Key>
+          <Property Name="customerid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="customername" Type="nvarchar" MaxLength="50" />
+          <Property Name="customersurname" Type="nvarchar" MaxLength="50" />
+          <Property Name="customerbalance" Type="decimal" Precision="18" Scale="2" />
+        </EntityType>
+        <EntityType Name="tblguide">
+          <Key>
+            <PropertyRef Name="guideid" />
+          </Key>
+          <Property Name="guideid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="guidename" Type="nvarchar" MaxLength="50" />
+          <Property Name="guidesurname" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="tbllocation">
+          <Key>
+            <PropertyRef Name="locationid" />
+          </Key>
+          <Property Name="locationid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="city" Type="nvarchar" MaxLength="50" />
+          <Property Name="country" Type="nvarchar" MaxLength="50" />
+          <Property Name="capacity" Type="tinyint" />
+          <Property Name="price" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="daynight" Type="nvarchar" MaxLength="50" />
+          <Property Name="guideid" Type="int" />
+        </EntityType>
+        <Association Name="FK_tbllocation_tblguide">
+          <End Role="tblguide" Type="Self.tblguide" Multiplicity="0..1" />
+          <End Role="tbllocation" Type="Self.tbllocation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblguide">
+              <PropertyRef Name="guideid" />
+            </Principal>
+            <Dependent Role="tbllocation">
+              <PropertyRef Name="guideid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EgitimKampiEfTravelDbModelStoreContainer">
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbladmin" EntityType="Self.tbladmin" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblcustomer" EntityType="Self.tblcustomer" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblguide" EntityType="Self.tblguide" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbllocation" EntityType="Self.tbllocation" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_tbllocation_tblguide" Association="Self.FK_tbllocation_tblguide">
+            <End Role="tblguide" EntitySet="tblguide" />
+            <End Role="tbllocation" EntitySet="tbllocation" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="EgitimKampiEfTravelDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="tblcustomer">
+          <Key>
+            <PropertyRef Name="customerid" />
+          </Key>
+          <Property Name="customerid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="customername" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="customersurname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="customerbalance" Type="Decimal" Precision="18" Scale="2" />
+        </EntityType>
+        <EntityType Name="tblguide">
+          <Key>
+            <PropertyRef Name="guideid" />
+          </Key>
+          <Property Name="guideid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="guidename" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="guidesurname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="tbllocation" Relationship="Self.FK_tbllocation_tblguide" FromRole="tblguide" ToRole="tbllocation" />
+        </EntityType>
+        <EntityType Name="tbllocation">
+          <Key>
+            <PropertyRef Name="locationid" />
+          </Key>
+          <Property Name="locationid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="city" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="country" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="capacity" Type="Byte" />
+          <Property Name="price" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="daynight" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="guideid" Type="Int32" />
+          <NavigationProperty Name="tblguide" Relationship="Self.FK_tbllocation_tblguide" FromRole="tbllocation" ToRole="tblguide" />
+        </EntityType>
+        <Association Name="FK_tbllocation_tblguide">
+          <End Role="tblguide" Type="Self.tblguide" Multiplicity="0..1" />
+          <End Role="tbllocation" Type="Self.tbllocation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblguide">
+              <PropertyRef Name="guideid" />
+            </Principal>
+            <Dependent Role="tbllocation">
+              <PropertyRef Name="guideid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EgitimKampiEfTravelDbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <EntitySet Name="tblcustomer" EntityType="Self.tblcustomer" />
+          <EntitySet Name="tblguide" EntityType="Self.tblguide" />
+          <EntitySet Name="tbllocation" EntityType="Self.tbllocation" />
+          <AssociationSet Name="FK_tbllocation_tblguide" Association="Self.FK_tbllocation_tblguide">
+            <End Role="tblguide" EntitySet="tblguide" />
+            <End Role="tbllocation" EntitySet="tbllocation" />
+          </AssociationSet>
+          <EntitySet Name="tbladmin" EntityType="EgitimKampiEfTravelDbModel.tbladmin" />
+        </EntityContainer>
+        <EntityType Name="tbladmin">
+          <Key>
+            <PropertyRef Name="adminid" />
+          </Key>
+          <Property Name="adminid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="EgitimKampiEfTravelDbModelStoreContainer" CdmEntityContainer="EgitimKampiEfTravelDbEntities">
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="EgitimKampiEfTravelDbModel.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblcustomer">
+            <EntityTypeMapping TypeName="EgitimKampiEfTravelDbModel.tblcustomer">
+              <MappingFragment StoreEntitySet="tblcustomer">
+                <ScalarProperty Name="customerbalance" ColumnName="customerbalance" />
+                <ScalarProperty Name="customerid" ColumnName="customerid" />
+                <ScalarProperty Name="customername" ColumnName="customername" />
+                <ScalarProperty Name="customersurname" ColumnName="customersurname" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblguide">
+            <EntityTypeMapping TypeName="EgitimKampiEfTravelDbModel.tblguide">
+              <MappingFragment StoreEntitySet="tblguide">
+                <ScalarProperty Name="guideid" ColumnName="guideid" />
+                <ScalarProperty Name="guidename" ColumnName="guidename" />
+                <ScalarProperty Name="guidesurname" ColumnName="guidesurname" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbllocation">
+            <EntityTypeMapping TypeName="EgitimKampiEfTravelDbModel.tbllocation">
+              <MappingFragment StoreEntitySet="tbllocation">
+                <ScalarProperty Name="locationid" ColumnName="locationid" />
+                <ScalarProperty Name="city" ColumnName="city" />
+                <ScalarProperty Name="country" ColumnName="country" />
+                <ScalarProperty Name="capacity" ColumnName="capacity" />
+                <ScalarProperty Name="price" ColumnName="price" />
+                <ScalarProperty Name="daynight" ColumnName="daynight" />
+                <ScalarProperty Name="guideid" ColumnName="guideid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbladmin">
+            <EntityTypeMapping TypeName="EgitimKampiEfTravelDbModel.tbladmin">
+              <MappingFragment StoreEntitySet="tbladmin">
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="adminid" ColumnName="adminid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
