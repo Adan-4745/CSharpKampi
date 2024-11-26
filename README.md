@@ -28,3 +28,12 @@ Son projede, geri değer döndürme yöntemleri ile çalıştım. Kullanıcıdan
 
 Bu projeler sayesinde C# diline dair temel kavramları uygulayarak C# from uygulamaları üzerinden projeler yapmaya başladım. 
 Murat Yücedağın Udemy üzerinden bir çok dersini aldım ve aklımda olan projeler için kendimi eğitiyorum
+
+## ☀️ Proje 9: EFTravel İstatsistik Paneli
+![Ekran görüntüsü 2024-11-26 231952](https://github.com/user-attachments/assets/cd78bbc8-7cba-42ef-b151-13f3bc7535d4)
+
+Bu proje ile birlikte entity framework kullanarak bir seyhat veri bilgilerini sorgulayarak ve bu sorgualrı bir görsel istatistik hale getitdik
+
+Proje sayesinde entity frameworkün faydalarını en öncellikli faydası bana veri tabanı programını kullanmadan veri tabanı oluşturması ve veri ilişkilendirmesi
+Bundan sonraki projelerimde sıkca entity framework kullanıcam 
+Öğretiğiniz her bilgi için şimdideen teşekkürler ♥
